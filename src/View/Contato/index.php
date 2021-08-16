@@ -64,21 +64,17 @@ $nome = $controllerPessoa->buscarPorId($entityManager, $id)->getNome();
                            <th> 
                            <button class="btn btn-primary"> <a class="text-light" href="updateContato.php?contatoId=' . $contato->getId() . '&pessoaId=' . $id . '">Editar</a></button>
                            <button class="btn btn-danger"> <a class="text-light" href="deleteContato.php?contatoId=' . $contato->getId() . '&pessoaId=' . $id . '">Excluir</a></button> 
-                           </th>';
+                           </th>
+                           ';
                     }
                 }
-
 
                 ?>
             </tbody>
 
         </table>
     </div>
+
 </body>
 
-
-
 </html>
-<scripts>
-
-</scripts>
