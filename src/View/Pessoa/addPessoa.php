@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>User CRUD</title>
+    <title>Adicionar pessoa</title>
 </head>
 
 <body>
@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
 
             <div class="mb-3">
                 <label for="cpf" class="form-label">CPF</label>
-                <input type="cpf" class="form-control" name="cpf" id="cpf" autocomplete="off" />
+                <input type="number" class="form-control" name="cpf" id="cpf" autocomplete="off" />
             </div>
             <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
         </form>
